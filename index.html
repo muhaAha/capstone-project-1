@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Resume</title>
+        <meta name="copyright" content="Dobi Digital">
+        <meta name="author" content="Muhamed Ajdinoski">
+        <meta name="description" content="My resume with all my work, education, 
+        certificates, hobbies and more.">
+        <meta name="keywords" content="resume, cv, job, hiring, html">
+    </head>
+    <body  text="orange" bgcolor="55 99 ff" background="./imgs/bg-02.png"  align="justify">
+        <header>
+            <table width="100%" cellpadding="0" cellspacing="0">
+                <!-- cellpadding="" --> 
+                <!-- cellspacing="" --> 
+                <!-- colspan="" means 2 or more td columns under 1 th header--> 
+                <!-- rowspan="" means 2 or more tr columns in same 1 td data column --> 
+                <!-- border="0 | 1" , 0 or above 1 to set table border | cells border-->
+                <tr>
+                    <th bgcolor="#7799ff" align="center"><a href="./index.html" title="Muhamed Ajdinoski`s Resume"><img src="./imgs/profile_picture.jpg" alt="profile picture" height="60" /></a></th>
+                    <td bgcolor="#1177ff" width="10"></td>
+                    <td bgcolor="#1177ff" padding="10"><h1> Muhamed`s Resume</h1></td>
+                </tr>
+            </table>
+            <nav width="100"> <!-- horizontal navigation -->
+                <table width="100%" width="100%" cellpadding="2" cellspacing="0">
+                    <tr align="center">
+                        <th bgcolor="orange"><a href="./index.html" title="Basic informations">Home</a></th>
+                        <th bgcolor="lightgray"><a href="./public/summary.html" title="All projects">Summary</a></th>
+                        <th bgcolor="lightgray"><a href="./public/education.html" title="Acquired education">Education</a></th>
+                        <th bgcolor="lightgray"><a href="./public/achievements.html" title="Obtained certificates">Achievements</a></th>
+                        <th bgcolor="lightgray"><a href="./public/experience.html" title="Gained experience">Experience</a></th>
+                        <th bgcolor="lightgray"><a href="./public/hobbies.html" title="Meet my hobbies">Hobbies</a></th>
+                        <th bgcolor="lightgray"><a href="./public/contact.html" title="Click to contact me">Contact me</a></th>
+                        <th bgcolor="cyan">
+                            <a href="./login/login.html" target="_parent"><button>login</button></a><a href="./login/register.html" target="_parent"><button>register</button></a>
+                            <!-- in <a> use ((target="_blank")) to open in new tab/window -->
+                            <!-- in <a> use ((target="_parent"))  to open on same tab/window -->
+                        </th>
+                        
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <hr />
+        <font size = "+1">
+            <table width="100%"  cellpadding="20" > <!-- border="10 | 1" -->
+                <tr>
+                    <td width="15%" valign="top" align="left">
+                        <ul>
+                            <li><button><a href="./index.html" title="Basic informations">Home</a></button></li>
+                            <li><button><a href="./public/summary.html" title="All projects">Summary</a></button></li>
+                            <li><button><a href="./public/education.html" title="Acquired education">Education</a></button></li>
+                            <li><button><a href="./public/achievements.html" title="Obtained certificates">Achievements</a></button></li>
+                            <li><button><a href="./public/experience.html" title="Gained experience">Experience</a></button></li>
+                            <li><button><a href="./public/hobbies.html" title="Meet my hobbies">Hobbies</a></button></li>
+                            <li><button><a href="./public/contact.html" title="Click to contact me">Contact me</a></button></li>
+                        </ul>
+                    </td>
+                    <td width="60%" valign="top">
+                        <main padding="100">
+                            <h2>Introductioin</h2>
+                            <p bgcolor="white" text="black">
+                                <span><img width="70" src="./imgs/hi.webp" art="hi image"/></span> 
+                                &nbsp Hi, I am Muhamed Ajdinoski, from Struga - Republic of North Macedonia.
+                                This is my resume website, where I will introduce myself to You; what is my education, achivements and so on.<br />
+                                &nbsp &nbsp &nbsp I am mechatronical engineer, freelance professional web developer and 3D designer.
+                                Also, I am married, and I have three children. In my free time, I play football or read a good book.
+                                In the summer, we are all swimming in the Ohrid`s Lake, that is 13km far from our village.<br />
+                                &nbsp &nbsp &nbsp In this website of my, You can follow my news and all my activities. Have a nice surfing.
+                            </p>
+                            <hr />
+                            <!-- date and hour of publication... -->
+                            <!-- news section -->
+                            <section>
+                                <h3>News</h3>
+                                <p>
+                                    This news are related to me, and those around me.
+                                </p>
+                                <article>
+                                    <h4><span><font size="-1"><time>2024-04-24</time></font></span> | My first web project is online now</h4>
+                                    <p>
+                                        <span><img width="50" src="./imgs/first-web-project.png" art="hi image"/></span> 
+                                        &nbsp Good news from my web development course project. Today I`ve uploaded my first project on GitHub
+                                        successfully. Also I`ve set it publicly and live online on the internet so it can be visited. You can use 
+                                        <a href="https://muhaaha.github.io/html-portfolio/" alt="My first project in HTML" target="_blank">
+                                            <abbr title="https://muhaaha.github.io/html-portfolio/">this link</abbr>
+                                        </a>
+                                        by simply clicking on it.
+                                    </p>
+                                </article>
+                                <hr />
+                                <article>
+                                    <!--time stamp here (date of publicating)-->
+                                    <h4><span><font size="-1"><time>2024-04-27</time></font></span> | My daughter's graduation is coming up soon</h4>
+                                    <p>
+                                        &nbsp &nbsp &nbsp On 17th May 2024, it is planed to be the graduation celebration.
+                                        In june follows the day of graduation. We at my home are all excited.
+                                    </p>
+                                </article>
+                                <hr />
+                                <article>
+                                    <h4><span><font size="-1"><time>2024-04-29</time></font></span> | Today I launch this website on GitHub</h4>
+                                    <p>
+                                        <span><img width="100" src="./imgs/Caption-prohect-1.png" art="hi image"/></span> 
+                                        &nbsp On 29th of April 2024 I am lounching my first <em>Capstone Project</em> on GitHub.
+                                        I must say that this project it self is far from complete. But, as time is running, I have to upload it.I would be glad to hear your suggestions; which would improve the website.<br />
+                                        &nbsp &nbsp &nbsp Thank You for Your time.<br />
+                                    </p>
+                                </article>
+                            </section>
+                        </main>
+                        <!-- this is ment to bee aside section. but without CSS ...
+                        <section>
+                            <article>
+                                
+                            </article>
+                        </section>
+                        -->
+                    </td>
+                    <td width="15%" valign="top" align="center">
+                        <font size="+1" color="cyan">
+                            <p>Useful Links</p>
+                            <br />
+                            <section>
+                                <a href="https://dobi.mk/" text="blue" bgcolor="red" target="_blank">
+                                    <img height="30" src="./imgs/Dobi-Digital-Logo.png" alt="Dobi-Digital"/>
+                                </a>
+                            </section>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </font>
+        <hr />
+        <font size="-2">
+            <footer align="center">
+                <p><h4>Copyright <sub>2024</sub> Dobi-Digital</h4>
+                    s. Oktisi, Struga - Republic of North Macedonia
+                    <br />
+                    <br />
+                    Developed by Muhamed Ajdinoski
+                </p>
+            </footer>
+        </font>
+    </body>
+</html>
